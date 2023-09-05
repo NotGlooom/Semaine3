@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de paiement</title>
+    <link rel="stylesheet" href="Form paiement.css">
+</head>
+<body>
+    <form>
+        <h1>Formulaire de paiement</h1>
+        <h2>Informations de contact</h2>
+        <div id="Boite1">
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom">
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="province">Province :</label>
+            <select name="province" id="province">
+                <option value="Quebec">Québec</option>
+                <option value="Alberta">Alberta</option>
+                <option value="Manitob">Manitoba</option>
+                <option value="Saskatchewan">Saskatchewan</option>
+            </select>
+        </div>
+        <h2>Information de paiement</h2>
+        <div id="Boite2">
+            <p>Type de paiement :</p>
+            <input type="radio" id="visa" name="Visa" value="Visa">
+            <label for="visa">Visa</label>
+            <input type="radio" id="mastercard" name="MasterCard" value="MasterCard">
+            <label for="mastercard">MasterCard</label>
+            <input type="radio" id="americanexpress" name="American Express" value="American Express">
+            <label for="americanexpress">American Express</label>
+            <label for="phone">Téléphone :</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+    </form>
+
+</body>
+</html>

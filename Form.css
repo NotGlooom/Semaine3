@@ -1,0 +1,10 @@
+label{
+    display: block;
+    width: 100px;
+    float: left;
+}
+
+input{
+    display: block;
+    width: 200px;
+}
