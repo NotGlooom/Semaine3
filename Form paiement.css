@@ -1,5 +1,6 @@
 form {
     margin: auto;
+    position: relative;
     background-color: #398fd9;
     border-radius: 20px;
     border: 1px solid;
@@ -64,7 +65,7 @@ select{
 
 #Boite2 #options label{
     padding-top: 15px;
-    padding-left: 30px;
+    padding-left: 50px;
     float: left;
     display: inline-block;
     font-size: 18px;
@@ -72,8 +73,9 @@ select{
 
 #Boite2 #options input{
     top: 15px;
-    margin-left: 12px;
+    margin-left: 30px;
     position: absolute;
+    transform: scale(1.5);
 }
 
 #Boite2 #tel label{
@@ -89,6 +91,53 @@ select{
     bottom: 20px;
 }
 
+#Boite3 {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 40px;
+    border: 1px solid black;
+    height: 90px;
+    width: 90%;
+    background-color: #46dc78;
+}
 
+#Boite3 label{
+    display: block;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 14px;
+}
 
+#Boite3 input{
+    display: block;
+    position: absolute;
+    transform: scale(2);
+    margin-top: 20px;
+    left: 25px;
+}
 
+#button1{
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 60px;
+    left: 260px;
+}
+
+#button2{
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 60px;
+    left: 410px;
+}
