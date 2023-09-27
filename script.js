@@ -1,6 +1,3 @@
-let formulaire = document.getElementById("form")
-formulaire.setAttribute("style", "background-color:yellow")
-
 let titre = document.getElementsByTagName("h1")[0]
 titre.innerHTML = "Formulaire <em> Javascript </em>"
 
@@ -25,5 +22,9 @@ function copier(){
     e.innerText = email
     formulaire.appendChild(e)
 
+
+}
+
+function valider() {
 
 }

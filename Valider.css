@@ -1,0 +1,14 @@
+label {
+    display: block;
+    width: 160px;
+    float: left;
+}
+
+input, select {
+    display: block;
+    width: 160px;
+}
+
+h1 {
+    color: blue;
+}
